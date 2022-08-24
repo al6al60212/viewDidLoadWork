@@ -13,6 +13,9 @@
 		CB058A1928AD1C9600E1CFA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB058A1728AD1C9600E1CFA9 /* Main.storyboard */; };
 		CB058A1B28AD1C9900E1CFA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB058A1A28AD1C9900E1CFA9 /* Assets.xcassets */; };
 		CB058A1E28AD1C9900E1CFA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB058A1C28AD1C9900E1CFA9 /* LaunchScreen.storyboard */; };
+		CB4A396228B221B000B64329 /* Running_Script.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB4A396128B221B000B64329 /* Running_Script.ttf */; };
+		CB4A396A28B26E1300B64329 /* firefiles.sks in Resources */ = {isa = PBXBuildFile; fileRef = CB4A396928B26E1300B64329 /* firefiles.sks */; };
+		CB4A396C28B3B48400B64329 /* 星星失眠.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB4A396B28B3B48400B64329 /* 星星失眠.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		CB058A1A28AD1C9900E1CFA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB058A1D28AD1C9900E1CFA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB058A1F28AD1C9900E1CFA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB4A396128B221B000B64329 /* Running_Script.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Running_Script.ttf; sourceTree = "<group>"; };
+		CB4A396928B26E1300B64329 /* firefiles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = firefiles.sks; sourceTree = "<group>"; };
+		CB4A396B28B3B48400B64329 /* 星星失眠.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "星星失眠.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +62,12 @@
 		CB058A1028AD1C9600E1CFA9 /* DEMO1 */ = {
 			isa = PBXGroup;
 			children = (
+				CB4A396B28B3B48400B64329 /* 星星失眠.mp3 */,
+				CB4A396128B221B000B64329 /* Running_Script.ttf */,
 				CB058A1128AD1C9600E1CFA9 /* AppDelegate.swift */,
 				CB058A1328AD1C9600E1CFA9 /* SceneDelegate.swift */,
 				CB058A1528AD1C9600E1CFA9 /* ViewController.swift */,
+				CB4A396928B26E1300B64329 /* firefiles.sks */,
 				CB058A1728AD1C9600E1CFA9 /* Main.storyboard */,
 				CB058A1A28AD1C9900E1CFA9 /* Assets.xcassets */,
 				CB058A1C28AD1C9900E1CFA9 /* LaunchScreen.storyboard */,
@@ -126,8 +135,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB058A1E28AD1C9900E1CFA9 /* LaunchScreen.storyboard in Resources */,
+				CB4A396228B221B000B64329 /* Running_Script.ttf in Resources */,
 				CB058A1B28AD1C9900E1CFA9 /* Assets.xcassets in Resources */,
 				CB058A1928AD1C9600E1CFA9 /* Main.storyboard in Resources */,
+				CB4A396A28B26E1300B64329 /* firefiles.sks in Resources */,
+				CB4A396C28B3B48400B64329 /* 星星失眠.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +299,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2CWC533V7F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DEMO1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -294,6 +307,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,6 +328,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2CWC533V7F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DEMO1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -321,6 +336,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
